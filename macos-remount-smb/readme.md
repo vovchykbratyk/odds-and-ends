@@ -6,7 +6,7 @@ This is a super lightweight little automounter utility that keeps a SMB mounted 
 
 * download the files
 * edit the obvious parts in the files and filenames
-    * i.e., swap out your actual username where it says `username`
+    * i.e., swap in your actual username (or whatever string you want) where it says `username`
     * default paths are suggestions, edit them to what you want, just ensure you're consistent across both files
 * Assuming the default paths,
     * `remount-smb.sh` goes in `~/Applications`
