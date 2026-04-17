@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList=1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>org.username.remount-smb</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/username/Applications/remount-smb.sh</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StartInterval</key>
+    <integer>45</integer>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/org.username.remount-smb.out</string>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/org.username.remount-smb.err</string>
+  </dict>
+</plist>
